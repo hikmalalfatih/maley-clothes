@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "atlas": "atlas.webp",
+  "profile": "profile.webp",
+  "front": "front.webp",
+  "width": 384,
+  "height": 448,
+  "columns": 6,
+  "frameCount": 30,
+  "pivot": [
+    0.5,
+    0.027
+  ],
+  "source": {
+    "kind": "processed-video",
+    "file": "generated-kling-black-tee-crop.mp4",
+    "sha256": "83690077801565bda73851720038c00953b66dd77ac0bc2def3275941bc43ea1",
+    "intervalSeconds": [
+      0.0,
+      5.0
+    ]
+  },
+  "processing": {
+    "key": "green",
+    "crop": [
+      66,
+      0,
+      614,
+      616
+    ],
+    "scale": 0.6388384754990926,
+    "registered": true,
+    "selectedIndices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "endpointPixels": "Decoded atlas cells, no independent idle plate"
+  },
+  "bytes": 318204
+}
