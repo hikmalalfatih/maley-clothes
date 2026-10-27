@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "atlas": "atlas.webp",
+  "profile": "profile.webp",
+  "front": "front.webp",
+  "width": 384,
+  "height": 448,
+  "columns": 6,
+  "frameCount": 30,
+  "pivot": [
+    0.5,
+    0.027
+  ],
+  "source": {
+    "kind": "derived-variant",
+    "from": "applenesia-black-tee",
+    "method": "per-frame RGB inversion with wooden apex preserved"
+  },
+  "processing": {
+    "key": "derived",
+    "note": "Atlas derived by inverting the black variant frames; wooden hanger apex pixels kept original. Front/back stills are the matching generated white anchors, green-keyed."
+  },
+  "bytes": 324496
+}
