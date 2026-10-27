@@ -1,0 +1,44 @@
+{
+  "title": "maley clothes",
+  "subtitle": "T-shirt studies",
+  "timing": {
+    "intentMs": 80,
+    "turnMs": 360,
+    "returnMs": 280,
+    "endpointWindow": 0.3
+  },
+  "items": [
+    {
+      "id": "lake-white",
+      "name": "Alpine lake",
+      "type": "Oversized cotton T-shirt",
+      "color": "White",
+      "description": "A full-color alpine landscape on white cotton. Plain back.",
+      "previewLabel": "Generated garment concept",
+      "motion": "fixtures/lake-white-v3/manifest.json",
+      "back": "fixtures/lake-white-v3/back.webp"
+    },
+    {
+      "id": "applenesia-black-tee",
+      "name": "Kaos Applenesia",
+      "type": "Cotton T-shirt",
+      "color": "Black",
+      "description": "Kaos hitam katun dengan logo apple nesia kecil di dada. Desain Applenesia Tanjungpinang.",
+      "motion": "fixtures/applenesia-black-tee/manifest.json",
+      "back": "fixtures/applenesia-black-tee/back.webp",
+      "variants": [
+        {"id": "white", "color": "White", "motion": "fixtures/applenesia-white-tee/manifest.json", "back": "fixtures/applenesia-white-tee/back.webp"}
+      ]
+    },
+    {
+      "id": "cards-pink",
+      "name": "Wild cards",
+      "type": "Oversized cotton T-shirt",
+      "color": "Pastel pink",
+      "description": "Two black line-art cards printed on pastel pink cotton. Plain back.",
+      "previewLabel": "Generated garment concept",
+      "motion": "fixtures/cards-pink-v3/manifest.json",
+      "back": "fixtures/cards-pink-v3/back.webp"
+    }
+  ]
+}
